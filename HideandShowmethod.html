@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide and Show Method</title>
+</head>
+<body>
+    <div 
+    id="Sample" Style="width: 200px; height: 200px; background-color: brown; border: 5px solid black;">
+    </div>
+    <button onclick="show();">I am a Showing Method </button>
+    <button onclick="hide();">I am a Hiding Method </button>
+    <script type="text/javascript">
+        function show()
+        {
+            document.getElementById("Sample").style.display = "black";
+        }
+
+        function hide()
+            {
+                document.getElementById("Sample").style.display  = "none";
+            }
+    </script>
+</body>
+</html>
